@@ -15,8 +15,10 @@ end
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3'
+  gem 'rspec-rails',      ">= 2.0.0.beta"
 end
 
+gem 'rspec'
 
 gem 'sass-rails', '~> 4.0.2'
 # Use Uglifier as compressor for JavaScript assets
