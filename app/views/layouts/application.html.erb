@@ -14,12 +14,13 @@
     <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="navbar-inner">
         <div class="container">
-          <%= link_to "sample app", '#', id: "logo" %>
+          <%= link_to "566 7th STREET", '#', id: "logo" %>
           <nav>
             <ul class="nav">
               <li><%= link_to "Home",    '#' %></li>
               <li><%= link_to "Help",    '#' %></li>
               <li><%= link_to "Sign in", '#' %></li>
+              <li><%= link_to "About", about_path %></li>
             </ul>
           </nav>
         </div>
@@ -27,6 +28,9 @@
     </header>
     <div class="container">
       <%= yield %>
+      <%#= render 'layouts/footer' %> 
+      <!-- If I want to render a footer I'll render one -->
     </div>
   </body>
+
 </html>
