@@ -39,6 +39,7 @@ Rails.application.routes.draw do
   #   end
 
   # just making sure i make my daily commit here
+  # doubling down cuz thats what i do
 
   # Example resource route with sub-resources:
   #   resources :products do
