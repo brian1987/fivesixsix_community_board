@@ -38,6 +38,8 @@ Rails.application.routes.draw do
   #     end
   #   end
 
+  # just making sure i make my daily commit here
+
   # Example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
