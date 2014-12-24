@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0.rc2'
 
 #Adding bootstrap. Chapter 5 hartl
-gem 'bootstrap-sass', '2.3.2.0'
+gem 'bootstrap-sass', '3.2.0.0'
 # Use SCSS for stylesheets
 
 #Postgres for heroku
