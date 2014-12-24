@@ -1,0 +1,151 @@
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* universal */
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.7em;
+}
+
+/* header */
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*custom menu*/
+
+.cssmenu {
+  zoom: 1;
+  width: auto;
+  background: #000000;
+  padding: 8px 0;
+}
+.cssmenu:before {
+  content: '';
+  display: block;
+}
+.cssmenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.cssmenu ul {
+  list-style-type: none;
+  position: relative;
+  display: block;
+  font-size: 12px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #7ab900;
+  zoom: 1;
+}
+.cssmenu ul:before {
+  content: '';
+  display: block;
+}
+.cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.cssmenu li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.cssmenu li a {
+  float: left;
+  color: #A79787;
+  text-decoration: none;
+  height: 24px;
+  padding: 9px 15px 0;
+  font-weight: normal;
+}
+.cssmenu li:hover,
+.cssmenu .active {
+  text-decoration: none;
+  border-bottom: 2px solid #7ab900;
+}
+.cssmenu li:hover a {
+  color: #fff;
+}
+.cssmenu .active a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-fixed-top {
+  background-color: black;
+}
+
+.navbar-inverse {
+  background-color: black;
+}
+
